@@ -8,8 +8,11 @@ Use:
 Basically all the shell script does is the following:
 
 `/usr/bin/apt-get install unbound`
+
 `/bin/mv -v /etc/unbound /etc/unbound.dist`
+
 `/bin/mkdir /etc/unbound`
+
 `/bin/mv -v * /etc/unbound/`
 
 `sudo -u unbound unbound-control-setup`
